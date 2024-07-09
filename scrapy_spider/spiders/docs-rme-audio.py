@@ -53,11 +53,15 @@ class RMEAudioSpider(scrapy.Spider):
                     yield manual
                 elif pdf_url:
                     yield{
-                        'pdf_url': pdf_url
+                        'pdf_url': pdf_url,
+                        'product_name': product_name
                     }
                     yield scrapy.Request(url=f'{pdf_url}/shared', meta={'manual': manual}, callback=self.parse_url)
 
     def parse_url(self, response):
+        yield{
+            'get_url': response.url
+        }
         product_manual = response.meta['manual']
         product_model = product_manual['model']
 
