@@ -1,0 +1,759 @@
+{
+  "Projector": [
+    {
+      "product_id": "73",
+      "download_id": "8",
+      "image": "",
+      "title": "Burger  101",
+      "url_list": "{\"V6.02\":[{\"language\":\"ENGLISH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Burger_101_User_Manual_V6.02_EN.pdf?v=1622009798\"},{\"language\":\"DEUTSCH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Burger_101_User_Manual_V6.02_DE.pdf?v=1622010600\"},{\"language\":\"FRAN\u00c7AIS\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Burger_101_User_Manual_V6.02_FR.pdf?v=1622010784\"},{\"language\":\"ESPA\u00d1OL\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Burger_101_User_Manual_V6.02_ES.pdf?v=1622010769\"},{\"language\":\"ITALIANO\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Burger_101_User_Manual_V6.02_IT.pdf?v=1622010799\"},{\"language\":\"\u65e5\u672c\u8a9e\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Burger_101_User_Manual_V6.02_JP.pdf?v=1622010815\"}]}",
+      "status": "1",
+      "ctitle": "Projector"
+    },
+    {
+      "product_id": "74",
+      "download_id": "8",
+      "image": "",
+      "title": "Cinemango 100P",
+      "url_list": "{\"V1.01\":[{\"language\":\"ENGLISH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Cinemango_100P_User_Manual_V1.01_EN.pdf?v=1622011267\"},{\"language\":\"DEUTSCH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Cinemango_100P_User_Manual_V1.01_DE.pdf?v=1622011279\"},{\"language\":\"FRAN\u00c7AIS\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Cinemango_100P_User_Manual_V1.01_FR.pdf?v=1622011292\"}]}",
+      "status": "1",
+      "ctitle": "Projector"
+    },
+    {
+      "product_id": "75",
+      "download_id": "8",
+      "image": "",
+      "title": "Cinemango 100W",
+      "url_list": "{\"V1.02\":[{\"language\":\"ENGLISH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Cinemango100W_User_Manual_V1.02_EN.pdf?v=1622011393\"}]}",
+      "status": "1",
+      "ctitle": "Projector"
+    },
+    {
+      "product_id": "76",
+      "download_id": "8",
+      "image": "",
+      "title": "Cinemango 100",
+      "url_list": "{\"V2.02\":[{\"language\":\"ENGLISH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Cinemango_100_User_Manual_V2.02_EN.pdf?v=1622011444\"},{\"language\":\"DEUTSCH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Cinemango_100_User_Manual_V2.02_DE.pdf?v=1622011457\"},{\"language\":\"FRAN\u00c7AIS\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Cinemango_100_User_Manual_V2.02_FR.pdf?v=1622011471\"},{\"language\":\"ESPA\u00d1OL\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Cinemango_100_User_Manual_V2.02_ES.pdf?v=1622011483\"},{\"language\":\"ITALIANO\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Cinemango_100_User_Manual_V2.02_IT.pdf?v=1622011496\"},{\"language\":\"\u65e5\u672c\u8a9e\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Cinemango_100_User_Manual_V2.02_JP.pdf?v=1622011511\"}]}",
+      "status": "1",
+      "ctitle": "Projector"
+    },
+    {
+      "product_id": "77",
+      "download_id": "8",
+      "image": "",
+      "title": "GO 200",
+      "url_list": "{\"V3.03\":[{\"language\":\"ENGLISH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/GO200_User_Manual_V3.03__EN.pdf?v=1622011616\"}],\"V1.03\":[{\"language\":\"\u65e5\u672c\u8a9e\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/GO200_User_Manual_V1.03_JP.pdf?v=1622011641\"}]}",
+      "status": "1",
+      "ctitle": "Projector"
+    },
+    {
+      "product_id": "78",
+      "download_id": "8",
+      "image": "",
+      "title": "GO 300",
+      "url_list": "{\"V5.02\":[{\"language\":\"ENGLISH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/GO300_User_Manual_V5.02__EN.pdf?v=1622011846\"}],\"V1.01\":[{\"language\":\"\u65e5\u672c\u8a9e\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/GO300_User_Manual_V1.01_JP.pdf?v=1622011869\"}]}",
+      "status": "1",
+      "ctitle": "Projector"
+    },
+    {
+      "product_id": "79",
+      "download_id": "8",
+      "image": "",
+      "title": "Leisure 410 ",
+      "url_list": "{\"480P_V3.01\":[{\"language\":\"ENGLISH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_410_480P_User_Manual_V3.01_EN.pdf?v=1622012865\"},{\"language\":\"DEUTSCH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_410_480P_User_Manual_V3.01_DE.pdf?v=1622012875\"},{\"language\":\"FRAN\u00c7AIS\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_410_480P_User_Manual_V3.01_FR.pdf?v=1622012918\"},{\"language\":\"ESPA\u00d1OL\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_410_480P_User_Manual_V3.01_ES.pdf?v=1622012929\"},{\"language\":\"ITALIANO\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_410_480P_User_Manual_V3.01_IT.pdf?v=1622012953\"},{\"language\":\"\u65e5\u672c\u8a9e\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_410_480P_User_Manual_V3.01_JP.pdf?v=1622012964\"}],\"720P_V4.01\":[{\"language\":\"ENGLISH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_410_720P_User_Manual_V4.01_EN.pdf?v=1622013051\"},{\"language\":\"DEUTSCH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_410_720P_User_Manual_V4.01_DE.pdf?v=1622013065\"},{\"language\":\"FRAN\u00c7AIS\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_410_720P_User_Manual_V4.01_FR.pdf?v=1622013077\"},{\"language\":\"ESPA\u00d1OL\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_410_720P_User_Manual_V4.01_ES.pdf?v=1622013089\"},{\"language\":\"ITALIANO\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_410_720P_User_Manual_V4.01_IT.pdf?v=1622013103\"},{\"language\":\"\u65e5\u672c\u8a9e\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_410_720P_User_Manual_V4.01_JP.pdf?v=1622013116\"}]}",
+      "status": "1",
+      "ctitle": "Projector"
+    },
+    {
+      "product_id": "80",
+      "download_id": "8",
+      "image": "",
+      "title": "Leisure 410W",
+      "url_list": "{\"V1.05\":[{\"language\":\"ENGLISH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_410W_User_Manual_V1.05_EN.pdf?v=1622013266\"},{\"language\":\"FRAN\u00c7AIS\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_410W_User_Manual_V1.05_FR.pdf?v=1622013296\"},{\"language\":\"ESPA\u00d1OL\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_410W_User_Manual_V1.05_ES.pdf?v=1622013283\"}]}",
+      "status": "1",
+      "ctitle": "Projector"
+    },
+    {
+      "product_id": "81",
+      "download_id": "8",
+      "image": "",
+      "title": "Leisure 430",
+      "url_list": "{\"480P_V5.01\":[{\"language\":\"ENGLISH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_430_User_Manual_V5.01_EN.pdf?v=1622013383\"},{\"language\":\"DEUTSCH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_430_User_Manual_V5.01_DE.pdf?v=1622013397\"},{\"language\":\"FRAN\u00c7AIS\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_430_User_Manual_V5.01_FR.pdf?v=1622013614\"},{\"language\":\"ESPA\u00d1OL\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_430_User_Manual_V5.01_ES.pdf?v=1622013811\"},{\"language\":\"ITALIANO\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_430_User_Manual_V5.01_IT.pdf?v=1622013433\"},{\"language\":\"\u65e5\u672c\u8a9e\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_430_User_Manual_V5.01_JP.pdf?v=1622013445\"}],\"720P_V1.02\":[{\"language\":\"ENGLISH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_430_720P_User_Manual__V1.02_EN.pdf?v=1622013877\"},{\"language\":\"DEUTSCH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_430_720P_User_Manual__V1.02_DE.pdf?v=1622013890\"},{\"language\":\"FRAN\u00c7AIS\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_430_720P_User_Manual__V1.02_FR.pdf?v=1622013899\"},{\"language\":\"ESPA\u00d1OL\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_430_720P_User_Manual__V1.02_ES.pdf?v=1622013912\"},{\"language\":\"ITALIANO\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_430_720P_User_Manual__V1.02_IT.pdf?v=1622013939\"},{\"language\":\"\u65e5\u672c\u8a9e\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_430_720P_User_Manual__V1.02_JP.pdf?v=1622013990\"}]}",
+      "status": "1",
+      "ctitle": "Projector"
+    },
+    {
+      "product_id": "93",
+      "download_id": "8",
+      "image": "",
+      "title": "Leisure D30T Plus Bundle Edition",
+      "url_list": "{\"V1.01\":[{\"language\":\"ENGLISH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_D30T_Plus_Bundle_Edition_User_Manual_V1.01_EN.pdf?v=1622693948\"},{\"language\":\"DEUTSCH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_D30T_Plus_Bundle_Edition_User_Manual_V1.01_DE.pdf?v=1622693934\"},{\"language\":\"FRAN\u00c7AIS\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_D30T_Plus_Bundle_Edition_User_Manual_V1.01_FR.pdf?v=1622693978\"},{\"language\":\"ESPA\u00d1OL\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_D30T_Plus_Bundle_Edition_User_Manual_V1.01_ES.pdf?v=1622693959\"},{\"language\":\"ITALIANO\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_D30T_Plus_Bundle_Edition_User_Manual_V1.01_IT.pdf?v=1622693994\"},{\"language\":\"\u65e5\u672c\u8a9e\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_D30T_Plus_Bundle_Edition_User_Manual_V1.01_JP.pdf?v=1622694005\"}]}",
+      "status": "1",
+      "ctitle": "Projector"
+    },
+    {
+      "product_id": "82",
+      "download_id": "8",
+      "image": "",
+      "title": "Leisure 430W",
+      "url_list": "{\"V1.01\":[{\"language\":\"ENGLISH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_430W_User_Manual_V1.01_EN.pdf?v=1622014140\"},{\"language\":\"DEUTSCH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_430W_User_Manual_V1.01_DE.pdf?v=1622014149\"},{\"language\":\"FRAN\u00c7AIS\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_430W_User_Manual_V1.01_FR.pdf?v=1622014157\"},{\"language\":\"ESPA\u00d1OL\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_430W_User_Manual_V1.01_ES.pdf?v=1622014164\"},{\"language\":\"ITALIANO\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_430W_User_Manual_V1.01_IT.pdf?v=1622014170\"},{\"language\":\"\u65e5\u672c\u8a9e\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_430W_User_Manual_V1.01_JP.pdf?v=1622014182\"}],\"V1.02\":[{\"language\":\"\ud55c\uad6d\uc5b4\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_430W_User_Manual_V1.02_KR.pdf?v=1622014189\"}]}",
+      "status": "1",
+      "ctitle": "Projector"
+    },
+    {
+      "product_id": "83",
+      "download_id": "8",
+      "image": "",
+      "title": "Leisure 460",
+      "url_list": "{\"V6.02\":[{\"language\":\"ENGLISH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_460_User_Manual_V6.02_EN.pdf?v=1622014305\"},{\"language\":\"DEUTSCH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_460_User_Manual_V6.02_DE.pdf?v=1622014339\"},{\"language\":\"FRAN\u00c7AIS\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_460_User_Manual_V6.02_FR.pdf?v=1622014356\"},{\"language\":\"ESPA\u00d1OL\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_460_User_Manual_V6.02_ES.pdf?v=1622014372\"},{\"language\":\"ITALIANO\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_460_User_Manual_V6.02_IT.pdf?v=1622014380\"},{\"language\":\"\u65e5\u672c\u8a9e\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_460_User_Manual_V6.02_JP.pdf?v=1622014393\"}]}",
+      "status": "1",
+      "ctitle": "Projector"
+    },
+    {
+      "product_id": "84",
+      "download_id": "8",
+      "image": "",
+      "title": "Leisure 470",
+      "url_list": "{\"V6.04\":[{\"language\":\"ENGLISH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_470_User_Manual_V6.04_EN.pdf?v=1622014474\"},{\"language\":\"DEUTSCH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_470_User_Manual_V6.04_DE.pdf?v=1622014482\"},{\"language\":\"FRAN\u00c7AIS\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_470_User_Manual_V6.04_FR.pdf?v=1622014491\"},{\"language\":\"ESPA\u00d1OL\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_470_User_Manual_V6.04_ES.pdf?v=1622014497\"},{\"language\":\"ITALIANO\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_470_User_Manual_V6.04_IT.pdf?v=1622014508\"},{\"language\":\"\u65e5\u672c\u8a9e\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_470_User_Manual_V6.04_JP.pdf?v=1622014519\"}],\"V1.02\":[{\"language\":\"\ud55c\uad6d\uc5b4\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_470_User_Manual_V1.02_KR.pdf?v=1622014526\"}]}",
+      "status": "1",
+      "ctitle": "Projector"
+    },
+    {
+      "product_id": "85",
+      "download_id": "8",
+      "image": "",
+      "title": "Leisure 470C",
+      "url_list": "{\"V6.01\":[{\"language\":\"ENGLISH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_470C_User_Manual_V6.01_EN.pdf?v=1622014669\"},{\"language\":\"DEUTSCH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_470C_User_Manual_V6.01_DE.pdf?v=1622014674\"},{\"language\":\"FRAN\u00c7AIS\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_470C_User_Manual_V6.01_FR.pdf?v=1622014683\"},{\"language\":\"ESPA\u00d1OL\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_470C_User_Manual_V6.01_ES.pdf?v=1622014689\"},{\"language\":\"ITALIANO\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_470C_User_Manual_V6.01_IT.pdf?v=1622014696\"},{\"language\":\"\u65e5\u672c\u8a9e\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_470C_User_Manual_V6.01_JP.pdf?v=1622014700\"}]}",
+      "status": "1",
+      "ctitle": "Projector"
+    },
+    {
+      "product_id": "86",
+      "download_id": "8",
+      "image": "",
+      "title": "Leisure 510",
+      "url_list": "{\"V4.02\":[{\"language\":\"ENGLISH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_510_User_Manual_V4.02_EN.pdf?v=1622014778\"},{\"language\":\"DEUTSCH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_510_User_Manual_V4.02_DE.pdf?v=1622014794\"},{\"language\":\"FRAN\u00c7AIS\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_510_User_Manual_V4.02_FR.pdf?v=1622014816\"},{\"language\":\"ESPA\u00d1OL\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_510_User_Manual_V4.02_ES.pdf?v=1622015003\"},{\"language\":\"ITALIANO\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_510_User_Manual_V4.02_IT.pdf?v=1622015012\"},{\"language\":\"\u65e5\u672c\u8a9e\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_510_User_Manual_V4.02_JP.pdf?v=1622015023\"}]}",
+      "status": "1",
+      "ctitle": "Projector"
+    },
+    {
+      "product_id": "87",
+      "download_id": "8",
+      "image": "",
+      "title": "Leisure 510PW",
+      "url_list": "{\"V2.02\":[{\"language\":\"ENGLISH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_510PW_User_Manual_V2.02_EN.pdf?v=1622015109\"},{\"language\":\"ITALIANO\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_510PW_User_Manual_V2.02_IT.pdf?v=1622015119\"}]}",
+      "status": "1",
+      "ctitle": "Projector"
+    },
+    {
+      "product_id": "88",
+      "download_id": "8",
+      "image": "",
+      "title": "Leisure 510W",
+      "url_list": "{\"V1.01\":[{\"language\":\"ENGLISH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_510W_User_Manual_V1.01_EN.pdf?v=1622015201\"}]}",
+      "status": "1",
+      "ctitle": "Projector"
+    },
+    {
+      "product_id": "89",
+      "download_id": "8",
+      "image": "",
+      "title": "Leisure 520W",
+      "url_list": "{\"V1.03\":[{\"language\":\"ENGLISH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_520W_User_Manual_V1.03_EN.pdf?v=1622015255\"},{\"language\":\"DEUTSCH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_520W_User_Manual_V1.03_DE.pdf?v=1622015268\"},{\"language\":\"FRAN\u00c7AIS\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_520W_User_Manual_V1.03_FR.pdf?v=1622015283\"},{\"language\":\"ESPA\u00d1OL\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_520W_User_Manual_V1.03_ES.pdf?v=1622015302\"},{\"language\":\"ITALIANO\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_520W_User_Manual_V1.03_IT.pdf?v=1622015314\"},{\"language\":\"\u65e5\u672c\u8a9e\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_520W_User_Manual_V1.03_JP.pdf?v=1622015326\"},{\"language\":\"\ud55c\uad6d\uc5b4\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_520W_User_Manual_V1.03_KR.pdf?v=1622015334\"},{\"language\":\"\u7e41\u4f53\u4e2d\u6587\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_520W_User_Manual_V1.03_CH.pdf?v=1622015341\"}]}",
+      "status": "1",
+      "ctitle": "Projector"
+    },
+    {
+      "product_id": "90",
+      "download_id": "8",
+      "image": "",
+      "title": "Leisure 550W",
+      "url_list": "{\"V1.02\":[{\"language\":\"ENGLISH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_550W_User_Manual_V1.02_EN.pdf?v=1622015464\"},{\"language\":\"\u65e5\u672c\u8a9e\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_550W_User_Manual_V1.02_JP.pdf?v=1622015510\"}]}",
+      "status": "1",
+      "ctitle": "Projector"
+    },
+    {
+      "product_id": "91",
+      "download_id": "8",
+      "image": "",
+      "title": "Leisure 530W&amp;E30WT&amp;E30WQ",
+      "url_list": "{\"V2.01\":[{\"language\":\"ENGLISH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_530W_E30WT_E30WQ_User_Manual_V2.01_EN.pdf?v=1622015598\"},{\"language\":\"DEUTSCH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_530W_E30WT_E30WQ_User_Manual_V2.01_DE.pdf?v=1622015610\"},{\"language\":\"FRAN\u00c7AIS\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_530W_E30WT_E30WQ_User_Manual_V2.01_FR.pdf?v=1622015624\"},{\"language\":\"ESPA\u00d1OL\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_530W_E30WT_E30WQ_User_Manual_V2.01_ES.pdf?v=1622015636\"},{\"language\":\"ITALIANO\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_530W_E30WT_E30WQ_User_Manual_V2.01_IT.pdf?v=1622015647\"},{\"language\":\"\u65e5\u672c\u8a9e\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_530W_E30WT_E30WQ_User_Manual_V2.01_JP.pdf?v=1622015662\"},{\"language\":\"\u0420\u0423\u0421\u0421\u041a\u0418\u0419\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_530W_E30WT_E30WQ_User_Manual_V2.01_RU.pdf?v=1622015670\"}]}",
+      "status": "1",
+      "ctitle": "Projector"
+    },
+    {
+      "product_id": "92",
+      "download_id": "8",
+      "image": "",
+      "title": "mini_Leisure 470&amp;D70T&amp;D70Q",
+      "url_list": "{\"V1.02\":[{\"language\":\"ENGLISH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/mini_Leisure_470_Leisure_D70T_Leisure_D70Q_V1.02_EN.pdf?v=1622015868\"},{\"language\":\"DEUTSCH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/mini_Leisure_470_Leisure_D70T_Leisure_D70Q_V1.02_DE.pdf?v=1622015878\"},{\"language\":\"FRAN\u00c7AIS\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/mini_Leisure_470_Leisure_D70T_Leisure_D70Q_V1.02_FR.pdf?v=1622015888\"},{\"language\":\"ESPA\u00d1OL\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/mini_Leisure_470_Leisure_D70T_Leisure_D70Q_V1.02_ES.pdf?v=1622015899\"},{\"language\":\"ITALIANO\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/mini_Leisure_470_Leisure_D70T_Leisure_D70Q_V1.02_IT.pdf?v=1622015909\"},{\"language\":\"\u65e5\u672c\u8a9e\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/mini_Leisure_470_Leisure_D70T_Leisure_D70Q_V1.02_JP.pdf?v=1622015921\"},{\"language\":\"\ud55c\uad6d\uc5b4\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/mini_Leisure_470_Leisure_D70T_Leisure_D70Q_V1.02_KR.pdf?v=1622015929\"}]}",
+      "status": "1",
+      "ctitle": "Projector"
+    },
+    {
+      "product_id": "94",
+      "download_id": "8",
+      "image": "",
+      "title": "Leisure 3W Pro",
+      "url_list": "{\"V1.02\":[{\"language\":\"ENGLISH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_3W_pro_User_Manual_V1.02_EN.pdf?v=1622694159\"}]}",
+      "status": "1",
+      "ctitle": "Projector"
+    },
+    {
+      "product_id": "95",
+      "download_id": "8",
+      "image": "",
+      "title": "Leisure 480W",
+      "url_list": "{\"V1.02\":[{\"language\":\"ENGLISH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_480W_User_Manual_V1.02_EN.pdf?v=1622694218\"},{\"language\":\"FRAN\u00c7AIS\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_480W_User_Manual_V1.02_FR.pdf?v=1622694266\"},{\"language\":\"ESPA\u00d1OL\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_480W_User_Manual_V1.02_ES.pdf?v=1622694241\"},{\"language\":\"\u65e5\u672c\u8a9e\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_480W_User_Manual_V1.02_JP.pdf?v=1622694303\"},{\"language\":\"\ud55c\uad6d\uc5b4\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_480W_User_Manual_V1.02_KR.pdf?v=1622694326\"}]}",
+      "status": "1",
+      "ctitle": "Projector"
+    },
+    {
+      "product_id": "96",
+      "download_id": "8",
+      "image": "",
+      "title": "Leisure 495W",
+      "url_list": "{\"V1.01\":[{\"language\":\"ENGLISH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_495W_User_Manual_V1.01_EN.pdf?v=1622694453\"},{\"language\":\"\u65e5\u672c\u8a9e\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_495W_User_Manual_V1.01_JP.pdf?v=1622694437\"}]}",
+      "status": "1",
+      "ctitle": "Projector"
+    },
+    {
+      "product_id": "97",
+      "download_id": "8",
+      "image": "",
+      "title": "Leisure D30T",
+      "url_list": "{\"V1.01\":[{\"language\":\"ENGLISH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_D30T_User_Manual_V1.01_EN.pdf?v=1622694500\"}]}",
+      "status": "1",
+      "ctitle": "Projector"
+    },
+    {
+      "product_id": "98",
+      "download_id": "8",
+      "image": "",
+      "title": "Miracle 110",
+      "url_list": "{\"V3.02\":[{\"language\":\"ENGLISH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Miracle_110_User_Manual_V3.02_EN.pdf?v=1622694530\"}]}",
+      "status": "1",
+      "ctitle": "Projector"
+    },
+    {
+      "product_id": "99",
+      "download_id": "8",
+      "image": "",
+      "title": "Miracle 120",
+      "url_list": "{\"V1.02\":[{\"language\":\"ENGLISH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Miracle_120_User_Manual_V1.02_EN.pdf?v=1622694574\"}]}",
+      "status": "1",
+      "ctitle": "Projector"
+    },
+    {
+      "product_id": "100",
+      "download_id": "8",
+      "image": "",
+      "title": "Leisure 540W",
+      "url_list": "{\"V1.01\":[{\"language\":\"\u65e5\u672c\u8a9e\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_540_User_Manual_V1.01_JP.pdf?v=1622694625\"}]}",
+      "status": "1",
+      "ctitle": "Projector"
+    },
+    {
+      "product_id": "101",
+      "download_id": "8",
+      "image": "",
+      "title": "Leisure 530W&amp;E30WT&amp;E30WQ",
+      "url_list": "{\"V3.03\":[{\"language\":\"ENGLISH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_530W_E30WT_E30WQ_User_Manual_V3.03_EN.pdf?v=1622772375\"},{\"language\":\"DEUTSCH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_530W_E30WT_E30WQ_User_Manual_V3.03_DE.pdf?v=1622772428\"},{\"language\":\"FRAN\u00c7AIS\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_530W_E30WT_E30WQ_User_Manual_V3.03_FR.pdf?v=1622772442\"},{\"language\":\"ITALIANO\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_530W_E30WT_E30WQ_User_Manual_V3.03_IT.pdf?v=1622772468\"},{\"language\":\"ESPA\u00d1OL\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_530W_E30WT_E30WQ_User_Manual_V3.03_ES.pdf?v=1622772454\"},{\"language\":\"\u65e5\u672c\u8a9e\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_530W_E30WT_E30WQ_User_Manual_V3.03_JP.pdf?v=1622772492\"}]}",
+      "status": "1",
+      "ctitle": "Projector"
+    },
+    {
+      "product_id": "102",
+      "download_id": "8",
+      "image": "",
+      "title": "Leisure E30T&amp;E30TB&amp;E30WT",
+      "url_list": "{\"V1.01\":[{\"language\":\"ENGLISH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_E30T_Leisure_E30TB_LeisureE30WT_User_Manual_V1.01_EN.pdf?v=1622776882\"},{\"language\":\"ESPA\u00d1OL\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_E30T_Leisure_E30TB_LeisureE30WT_User_Manual_V1.01_ES.pdf?v=1622772661\"}]}",
+      "status": "1",
+      "ctitle": "Projector"
+    },
+    {
+      "product_id": "103",
+      "download_id": "8",
+      "image": "",
+      "title": "Leisure 3 _720P",
+      "url_list": "{\"V2.05\":[{\"language\":\"ENGLISH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_3_720P_User_Manual_V2.05_EN.pdf?v=1622776981\"}]}",
+      "status": "1",
+      "ctitle": "Projector"
+    },
+    {
+      "product_id": "106",
+      "download_id": "8",
+      "image": "",
+      "title": "Leisure 490W",
+      "url_list": "{\"V1.03\":[{\"language\":\"ENGLISH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_490W_User_Manual__V1.03_EN.pdf?v=1623392339\"},{\"language\":\"\u65e5\u672c\u8a9e\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_490W_User_Manual__V1.03_JP.pdf?v=1623392363\"}]}",
+      "status": "1",
+      "ctitle": "Projector"
+    },
+    {
+      "product_id": "107",
+      "download_id": "8",
+      "image": "",
+      "title": "Leisure 420",
+      "url_list": "{\"V4.01\":[{\"language\":\"ENGLISH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_420_User_Manual_V4.01_EN.pdf?v=1623392397\"},{\"language\":\"DEUTSCH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_420_User_Manual_V4.01_DE.pdf?v=1623392414\"},{\"language\":\"FRAN\u00c7AIS\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_420_User_Manual_V4.01_FR.pdf?v=1623392427\"},{\"language\":\"ESPA\u00d1OL\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_420_User_Manual_V4.01_ES.pdf?v=1623392440\"},{\"language\":\"ITALIANO\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_420_User_Manual_V4.01_IT.pdf?v=1623392459\"},{\"language\":\"\u65e5\u672c\u8a9e\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_420_User_Manual_V4.01_JP.pdf?v=1623392470\"}]}",
+      "status": "1",
+      "ctitle": "Projector"
+    },
+    {
+      "product_id": "108",
+      "download_id": "8",
+      "image": "",
+      "title": "Leisure 490BW",
+      "url_list": "{\"V1.01\":[{\"language\":\"ENGLISH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_490BW_V1.01_EN.pdf?v=1623392552\"},{\"language\":\"DEUTSCH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_490BW_V1.01__DE.pdf?v=1623392576\"},{\"language\":\"FRAN\u00c7AIS\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_490BW_V1.01__FR.pdf?v=1623392591\"},{\"language\":\"ESPA\u00d1OL\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_490BW_V1.01__ES.pdf?v=1623392608\"},{\"language\":\"ITALIANO\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_490BW_V1.01__IT.pdf?v=1623392633\"},{\"language\":\"\u65e5\u672c\u8a9e\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_490BW_V1.01_JP.pdf?v=1623392666\"},{\"language\":\"\u0420\u0423\u0421\u0421\u041a\u0418\u0419\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_490BW_V1.01_RU.pdf?v=1623392689\"},{\"language\":\"\u7e41\u4f53\u4e2d\u6587\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_490BW_V1.01_CH.pdf?v=1623392711\"}]}",
+      "status": "1",
+      "ctitle": "Projector"
+    },
+    {
+      "product_id": "109",
+      "download_id": "8",
+      "image": "",
+      "title": "Leisure C3MQ",
+      "url_list": "{\"V1.01\":[{\"language\":\"ENGLISH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/LEISURE_C3MQ_User_Manual_V1.01_EN.pdf?v=1623392944\"},{\"language\":\"FRAN\u00c7AIS\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/LEISURE_C3MQ_User_Manual_V1.01_FR.pdf?v=1623392961\"},{\"language\":\"ESPA\u00d1OL\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/LEISURE_C3MQ_User_Manual_V1.01_ES.pdf?v=1623392974\"}]}",
+      "status": "1",
+      "ctitle": "Projector"
+    },
+    {
+      "product_id": "110",
+      "download_id": "8",
+      "image": "",
+      "title": "Performance V600",
+      "url_list": "{\"V5.03\":[{\"language\":\"ENGLISH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Performance_V600_User_Manual_V5.03_EN.pdf?v=1623398778\"},{\"language\":\"DEUTSCH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Performance_V600_User_Manual_V5.03_DE.pdf?v=1623398784\"},{\"language\":\"FRAN\u00c7AIS\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Performance_V600_User_Manual_V5.03_FR.pdf?v=1623398796\"},{\"language\":\"ESPA\u00d1OL\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Performance_V600_User_Manual_V5.03_ES.pdf?v=1623398807\"},{\"language\":\"ITALIANO\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Performance_V600_User_Manual_V5.03_IT.pdf?v=1623398823\"},{\"language\":\"\u65e5\u672c\u8a9e\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Performance_V600_User_Manual_V5.03_JP.pdf?v=1623398832\"}]}",
+      "status": "1",
+      "ctitle": "Projector"
+    },
+    {
+      "product_id": "111",
+      "download_id": "8",
+      "image": "",
+      "title": "Performance V610",
+      "url_list": "false",
+      "status": "1",
+      "ctitle": "Projector"
+    },
+    {
+      "product_id": "112",
+      "download_id": "8",
+      "image": "",
+      "title": "Performance V620",
+      "url_list": "{\"V4.02\":[{\"language\":\"ENGLISH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Performance_V620_User_Manual_V4.02_EN.pdf?v=1623399273\"},{\"language\":\"DEUTSCH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Performance_V620_User_Manual_V4.02_DE.pdf?v=1623399321\"},{\"language\":\"FRAN\u00c7AIS\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Performance_V620_User_Manual_V4.02_FR.pdf?v=1623399328\"},{\"language\":\"ESPA\u00d1OL\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Performance_V620_User_Manual_V4.02_ES.pdf?v=1623399338\"},{\"language\":\"ITALIANO\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Performance_V620_User_Manual_V4.02_IT.pdf?v=1623399346\"},{\"language\":\"\u65e5\u672c\u8a9e\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Performance_V620_User_Manual_V4.02_JP.pdf?v=1623399353\"}]}",
+      "status": "1",
+      "ctitle": "Projector"
+    },
+    {
+      "product_id": "113",
+      "download_id": "8",
+      "image": "",
+      "title": "Performance V630",
+      "url_list": "{\"V3.03\":[{\"language\":\"ENGLISH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Performance_V630_User_Manual_V3.03_EN.pdf?v=1623399525\"},{\"language\":\"DEUTSCH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Performance_V630_User_Manual_V2.03_DE.pdf?v=1623399555\"},{\"language\":\"FRAN\u00c7AIS\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Performance_V630_User_Manual_V2.03_FR.pdf?v=1623399567\"},{\"language\":\"ESPA\u00d1OL\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Performance_V630_User_Manual_V3.03_ES.pdf?v=1623399580\"},{\"language\":\"ITALIANO\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Performance_V630_User_Manual_V2.03_IT.pdf?v=1623399589\"},{\"language\":\"\u65e5\u672c\u8a9e\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Performance_V630_User_Manual_V3.03_JP.pdf?v=1623399596\"}]}",
+      "status": "1",
+      "ctitle": "Projector"
+    },
+    {
+      "product_id": "114",
+      "download_id": "8",
+      "image": "",
+      "title": "Leisure 3 pro",
+      "url_list": "{\"V1.01\":[{\"language\":\"ENGLISH\",\"url\":\"https://cdn.shopify.com/s/files/1/0268/7015/3313/files/Leisure_3_Pro__V1.01.pdf?v=1699407385\"}]}",
+      "status": "1",
+      "ctitle": "Projector"
+    },
+    {
+      "product_id": "115",
+      "download_id": "8",
+      "image": "",
+      "title": "Performance V700W",
+      "url_list": "{\"V2.01\":[{\"language\":\"ENGLISH\",\"url\":\"https://cdn.shopify.com/s/files/1/0268/7015/3313/files/Performance_V700W___V2.01.pdf?v=1699407385\"}]}",
+      "status": "1",
+      "ctitle": "Projector"
+    },
+    {
+      "product_id": "116",
+      "download_id": "8",
+      "image": "",
+      "title": "Leisure 3",
+      "url_list": "{\"V6.07\":[{\"language\":\"ENGLISH\",\"url\":\"https://cdn.shopify.com/s/files/1/0268/7015/3313/files/LEISURE_3__V6.07.pdf?v=1699580775\"}]}",
+      "status": "1",
+      "ctitle": "Projector"
+    },
+    {
+      "product_id": "117",
+      "download_id": "8",
+      "image": "",
+      "title": "Vista T4",
+      "url_list": "{\"V1.03\":[{\"language\":\"ENGLISH\",\"url\":\"https://cdn.shopify.com/s/files/1/0268/7015/3313/files/Vista_T4__V1.03_1_053f8623-3024-4897-9aad-a2ac7c046937.pdf?v=1700187479\"},{\"language\":\"FRAN\u00c7AIS\",\"url\":\"https://cdn.shopify.com/s/files/1/0268/7015/3313/files/Vista_T4__V1.03_1.pdf?v=1700187478\"},{\"language\":\"ESPA\u00d1OL\",\"url\":\"https://cdn.shopify.com/s/files/1/0268/7015/3313/files/Vista_T4__V1.03_1_f57cb435-fd1b-4159-9311-dcd8a75ddde0.pdf?v=1700187478\"}]}",
+      "status": "1",
+      "ctitle": "Projector"
+    },
+    {
+      "product_id": "118",
+      "download_id": "8",
+      "image": "",
+      "title": "Leisure D30T",
+      "url_list": "{\"V1.01\":[{\"language\":\"ENGLISH\",\"url\":\"https://cdn.shopify.com/s/files/1/0268/7015/3313/files/Leisure_D30T__V1.01.pdf?v=1700553353\"},{\"language\":\"DEUTSCH\",\"url\":\"https://cdn.shopify.com/s/files/1/0268/7015/3313/files/Leisure_D30T__V1.01_48c036e3-d54b-43f3-b96a-650753db9365.pdf?v=1700553353\"},{\"language\":\"FRAN\u00c7AIS\",\"url\":\"https://cdn.shopify.com/s/files/1/0268/7015/3313/files/Leisure_D30T__V1.01_dd8d0d02-a7a6-4e21-a5de-63a6f75cef2e.pdf?v=1700553353\"}]}",
+      "status": "1",
+      "ctitle": "Projector"
+    },
+    {
+      "product_id": "119",
+      "download_id": "8",
+      "image": "",
+      "title": "Performance V630W mini",
+      "url_list": "{\"V1.01\":[{\"language\":\"ENGLISH\",\"url\":\"https://cdn.shopify.com/s/files/1/0268/7015/3313/files/PERFORMANCE_V630W_mini___4.5__V1.01_073882ea-8021-44ad-b6d5-a16c753deb0b.pdf?v=1700814967\"},{\"language\":\"DEUTSCH\",\"url\":\"https://cdn.shopify.com/s/files/1/0268/7015/3313/files/PERFORMANCE_V630W_mini___4.5__V1.01.pdf?v=1700814967\"},{\"language\":\"FRAN\u00c7AIS\",\"url\":\"https://cdn.shopify.com/s/files/1/0268/7015/3313/files/PERFORMANCE_V630W_mini___4.5__V1.01_d4f867aa-18c1-4652-afeb-54a49849d9eb.pdf?v=1700814967\"}]}",
+      "status": "1",
+      "ctitle": "Projector"
+    },
+    {
+      "product_id": "121",
+      "download_id": "8",
+      "image": "",
+      "title": "Performance X3",
+      "url_list": "{\"V1.03\":[{\"language\":\"ENGLISH\",\"url\":\"https://cdn.shopify.com/s/files/1/0268/7015/3313/files/Performance_X3__V1.03.pdf?v=1706003902\"}]}",
+      "status": "1",
+      "ctitle": "Projector"
+    },
+    {
+      "product_id": "122",
+      "download_id": "8",
+      "image": "",
+      "title": "Leisure 330W",
+      "url_list": "{\"V1.05\":[{\"language\":\"ENGLISH\",\"url\":\"https://cdn.shopify.com/s/files/1/0268/7015/3313/files/Leisure_330W___V1.05.pdf?v=1706003901\"}]}",
+      "status": "1",
+      "ctitle": "Projector"
+    },
+    {
+      "product_id": "123",
+      "download_id": "8",
+      "image": "",
+      "title": "Leisure 470 Pro",
+      "url_list": "{\"V2.02\":[{\"language\":\"ENGLISH\",\"url\":\"https://cdn.shopify.com/s/files/1/0268/7015/3313/files/Leisure_470_Pro__V2.02.pdf?v=1706003899\"}]}",
+      "status": "1",
+      "ctitle": "Projector"
+    },
+    {
+      "product_id": "125",
+      "download_id": "8",
+      "image": "",
+      "title": "Leisure 3W",
+      "url_list": "{\"V2.05\":[{\"language\":\"ENGLISH\",\"url\":\"https://cdn.shopify.com/s/files/1/0268/7015/3313/files/LEISURE_3W_480P_WiFi__V2.05_1.pdf?v=1708911503\"}]}",
+      "status": "1",
+      "ctitle": "Projector"
+    }
+  ],
+  "Tablet": [
+    {
+      "product_id": "42",
+      "download_id": "4",
+      "image": "",
+      "title": "S7&amp;S8",
+      "url_list": "{\"Android 9\":[{\"language\":\"EN\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/MatrixPad_S7_S8_User_Manual_V3.01_EN.pdf?v=1610700791\"},{\"language\":\"DE\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/MatrixPad_S7_S8_User_Manual_V3.01_DE.pdf?v=1610700791\"},{\"language\":\"FR\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/MatrixPad_S7_S8_User_Manual_V3.01_FR.pdf?v=1610700796\"},{\"language\":\"IT\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/MatrixPad_S7_S8_User_Manual_V3.01_IT.pdf?v=1610700791\"},{\"language\":\"ES\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/MatrixPad_S7_S8_User_Manual_V3.01_ES.pdf?v=1610700792\"},{\"language\":\"JP\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/MatrixPad_S7_S8_User_Manual_V3.01_JP.pdf?v=1610700796\"}],\"Android 10\":[{\"language\":\"EN\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S7_S8_User_Manual_EN_V1.02_10.pdf?v=1609931097\"},{\"language\":\"DE\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S7_S8_User_Manual_DE_V1.02_10.pdf?v=1609931098\"},{\"language\":\"FR\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S7_S8_User_Manual_FR_V1.02_10.pdf?v=1609931089\"},{\"language\":\"IT\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S7_S8_User_Manual_IT_V1.02_10.pdf?v=1609931094\"},{\"language\":\"ES\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S7_S8_User_Manual_ES_V1.02_10.pdf?v=1609931096\"},{\"language\":\"JP\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S7_S8_User_Manual_JP_V1.02_10.pdf?v=1609931613\"}]}",
+      "status": "1",
+      "ctitle": "Tablet"
+    },
+    {
+      "product_id": "43",
+      "download_id": "4",
+      "image": "",
+      "title": "S10",
+      "url_list": "{\"Android 9\":[{\"language\":\"EN\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S10_detailed_user_manual_EN_V1.02.pdf?v=1611652771\"},{\"language\":\"DE\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S10_detailed_user_manual_DE_V1.02.pdf?v=1611652808\"},{\"language\":\"FR\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S10_detailed_user_manual_FR_V1.02.pdf?v=1611652810\"},{\"language\":\"IT\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S10_detailed_user_manual_IT_V1.02.pdf?v=1611652811\"},{\"language\":\"ES\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S10_detailed_user_manual_ES_V1.02.pdf?v=1611652810\"},{\"language\":\"JP\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S10_detailed_user_manual_JP_V1.02.pdf?v=1611652817\"}],\"Android 10\":[{\"language\":\"EN\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S10_User_Manual_EN_V1.01_10.pdf?v=1609931098\"},{\"language\":\"DE\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S10_User_Manual_DE_V1.01_10.pdf?v=1609931097\"},{\"language\":\"FR\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S10_User_Manual_FR_V1.01_10.pdf?v=1609931098\"},{\"language\":\"IT\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S10_User_Manual_IT_V1.01_10.pdf?v=1609931104\"},{\"language\":\"ES\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S10_User_Manual_ES_V1.01_10.pdf?v=1609931097\"},{\"language\":\"JP\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S10_User_Manual_JP_V1.01_10.pdf?v=1609931612\"}]}",
+      "status": "1",
+      "ctitle": "Tablet"
+    },
+    {
+      "product_id": "44",
+      "download_id": "4",
+      "image": "",
+      "title": "S20",
+      "url_list": "{\"Android 9\":[{\"language\":\"EN\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S20_User_Manual_V2.01_EN.pdf?v=1611731463\"},{\"language\":\"DE\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S20_User_Manual_V2.01_DE.pdf?v=1611731463\"},{\"language\":\"FR\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S20_User_Manual_V2.01_FR.pdf?v=1611731463\"},{\"language\":\"IT\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S20_User_Manual_V2.01_IT.pdf?v=1611731464\"},{\"language\":\"ES\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S20_User_Manual_V2.01_ES.pdf?v=1611731463\"},{\"language\":\"JP\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S20_User_Manual_V2.01_JP.pdf?v=1611731467\"}],\"Android 10\":[{\"language\":\"EN\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S20_User_Manual_EN_V1.01_10.pdf?v=1609931016\"},{\"language\":\"DE\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S20_User_Manual_DE_V1.01_10.pdf?v=1609931018\"},{\"language\":\"FR\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S20_User_Manual_FR_V1.01_10.pdf?v=1609931013\"},{\"language\":\"IT\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S20_User_Manual_IT_V1.01_10.pdf?v=1609931014\"},{\"language\":\"ES\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S20_User_Manual_ES_V1.01_10.pdf?v=1609931015\"},{\"language\":\"JP\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S20_User_Manual_JP_V1.01_10.pdf?v=1609931068\"}]}",
+      "status": "1",
+      "ctitle": "Tablet"
+    },
+    {
+      "product_id": "45",
+      "download_id": "4",
+      "image": "",
+      "title": "S21",
+      "url_list": "{\"\":[{\"language\":\"EN\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S21_V1.02_EN.pdf?v=1609933124\"},{\"language\":\"DE\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S21_V1.02_DE.pdf?v=1609933130\"},{\"language\":\"FR\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S21_V1.02_FR.pdf?v=1609933124\"},{\"language\":\"IT\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S21_V1.02_IT.pdf?v=1609933129\"},{\"language\":\"ES\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S21_V1.02_ES.pdf?v=1609933123\"},{\"language\":\"JP\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S21_V1.02_JP.pdf?v=1609933125\"}]}",
+      "status": "1",
+      "ctitle": "Tablet"
+    },
+    {
+      "product_id": "46",
+      "download_id": "4",
+      "image": "",
+      "title": "S30",
+      "url_list": "{\"Android 9\":[{\"language\":\"EN\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S30_User_Manual_V2.01_EN.pdf?v=1611732688\"},{\"language\":\"DE\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S30_User_Manual_V2.01_DE.pdf?v=1611732689\"},{\"language\":\"FR\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S30_User_Manual_V2.01_FR.pdf?v=1611732688\"},{\"language\":\"IT\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S30_User_Manual_V2.01_IT.pdf?v=1611732688\"},{\"language\":\"ES\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S30_User_Manual_V2.01_ES.pdf?v=1611732688\"},{\"language\":\"JP\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S30_User_Manual_V2.01_JP.pdf?v=1611732691\"}],\"Android 10\":[{\"language\":\"EN\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S30_User_Manual_EN_V1.01_10.pdf?v=1609931024\"},{\"language\":\"DE\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S30_User_Manual_DE_V1.01_10.pdf?v=1609931020\"},{\"language\":\"FR\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S30_User_Manual_FR_V1.01_10.pdf?v=1609931016\"},{\"language\":\"IT\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S30_User_Manual_IT_V1.01_10.pdf?v=1609931015\"},{\"language\":\"ES\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S30_User_Manual_ES_V1.01_10.pdf?v=1609931016\"},{\"language\":\"JP\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S30_User_Manual_JP_V1.01_10.pdf?v=1609931075\"}]}",
+      "status": "1",
+      "ctitle": "Tablet"
+    },
+    {
+      "product_id": "47",
+      "download_id": "4",
+      "image": "",
+      "title": "P31",
+      "url_list": "{\"\":[{\"language\":\"EN\",\"url\":\"https://cdn.shopify.com/s/files/1/0268/7015/3313/files/P31_User_Manual_EN_V1.03_10.pdf?v=1628058673\"},{\"language\":\"DE\",\"url\":\"https://cdn.shopify.com/s/files/1/0268/7015/3313/files/P31_User_Manual_DE_V1.02_10.pdf?v=1628059542\"},{\"language\":\"FR\",\"url\":\"https://cdn.shopify.com/s/files/1/0268/7015/3313/files/P31_User_Manual_FR_V1.02_10.pdf?v=1628059542\"},{\"language\":\"IT\",\"url\":\"https://cdn.shopify.com/s/files/1/0268/7015/3313/files/P31_User_Manual_IT_V1.02_10.pdf?v=1628059542\"},{\"language\":\"ES\",\"url\":\"https://cdn.shopify.com/s/files/1/0268/7015/3313/files/P31_User_Manual_ES_V1.02_10.pdf?v=1628059542\"},{\"language\":\"JP\",\"url\":\"https://cdn.shopify.com/s/files/1/0268/7015/3313/files/P31_User_Manual_JP_V1.03_10.pdf?v=1628058673\"}]}",
+      "status": "1",
+      "ctitle": "Tablet"
+    },
+    {
+      "product_id": "48",
+      "download_id": "4",
+      "image": "",
+      "title": "P31-E",
+      "url_list": "{\"\":[{\"language\":\"EN\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/P31-E_V1.02_EN.pdf?v=1609927367\"},{\"language\":\"DE\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/P31-E_V1.02_DE.pdf?v=1609927386\"},{\"language\":\"FR\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/P31-E_V1.02_FR.pdf?v=1609927342\"},{\"language\":\"IT\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/P31-E_V1.02_IT.pdf?v=1609927332\"},{\"language\":\"ES\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/P31-E_V1.02_ES.pdf?v=1609927352\"}]}",
+      "status": "1",
+      "ctitle": "Tablet"
+    },
+    {
+      "product_id": "49",
+      "download_id": "4",
+      "image": "",
+      "title": "Z1 Upgrade",
+      "url_list": "{\"\":[{\"language\":\"EN\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Z1_Upgrade_V1.03_EN.pdf?v=1609918019\"},{\"language\":\"DE\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Z1_Upgrade_V1.03_DE.pdf?v=1609918011\"},{\"language\":\"FR\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Z1_Upgrade_V1.03_FR.pdf?v=1609918055\"},{\"language\":\"IT\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Z1_Upgrade_V1.03_IT.pdf?v=1609918065\"},{\"language\":\"ES\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Z1_Upgrade_V1.03_ES.pdf?v=1609918044\"},{\"language\":\"JP\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Z1_Upgrade_V1.03_JP.pdf?v=1609918088\"}]}",
+      "status": "1",
+      "ctitle": "Tablet"
+    },
+    {
+      "product_id": "50",
+      "download_id": "4",
+      "image": "",
+      "title": "Z10",
+      "url_list": "{\"\":[{\"language\":\"EN\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/MatrixPad_Z10_User_Guide_V2.02_EN.pdf?v=1609915024\"},{\"language\":\"DE\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/MatrixPad_Z10_User_Guide_V2.02_DE.pdf?v=1609915006\"},{\"language\":\"FR\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/MatrixPad_Z10_User_Guide_V2.02_FR.pdf?v=1609915062\"},{\"language\":\"IT\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/MatrixPad_Z10_User_Guide_V2.02_IT.pdf?v=1609915074\"},{\"language\":\"ES\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/MatrixPad_Z10_User_Guide_V2.02_ES.pdf?v=1609915040\"},{\"language\":\"JP\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/MatrixPad_Z10_User_Guide_V2.02_JP.pdf?v=1609915097\"}]}",
+      "status": "1",
+      "ctitle": "Tablet"
+    },
+    {
+      "product_id": "51",
+      "download_id": "4",
+      "image": "",
+      "title": "Z1 Kids Upgrade",
+      "url_list": "{\"\":[{\"language\":\"EN\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Z1_kids_Upgrade_V1.02_EN.pdf?v=1609919470\"},{\"language\":\"DE\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Z1_kids_Upgrade_V1.02_DE.pdf?v=1609919452\"},{\"language\":\"FR\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Z1_kids_Upgrade_V1.02_FR.pdf?v=1609919490\"},{\"language\":\"IT\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Z1_kids_Upgrade_V1.02_IT.pdf?v=1609919506\"},{\"language\":\"ES\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Z1_kids_Upgrade_V1.02_ES.pdf?v=1609919479\"},{\"language\":\"JP\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Z1_kids_Upgrade_V1.02_JP.pdf?v=1609920278\"}]}",
+      "status": "1",
+      "ctitle": "Tablet"
+    },
+    {
+      "product_id": "52",
+      "download_id": "4",
+      "image": "",
+      "title": "S7 Kids",
+      "url_list": "{\"Android 9\":[{\"language\":\"EN\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S7_Kids_V1.04_EN.pdf?v=1611734344\"},{\"language\":\"DE\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S7_Kids_V1.04_DE.pdf?v=1611734344\"},{\"language\":\"FR\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S7_Kids_V1.04_FR.pdf?v=1611734352\"},{\"language\":\"IT\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S7_Kids_V1.04_IT.pdf?v=1611734351\"},{\"language\":\"ES\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S7_Kids_V1.04_ES.pdf?v=1611734344\"},{\"language\":\"JP\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S7_Kids_V1.04_JP.pdf?v=1611734346\"}]}",
+      "status": "1",
+      "ctitle": "Tablet"
+    },
+    {
+      "product_id": "53",
+      "download_id": "4",
+      "image": "",
+      "title": "S8 Kids",
+      "url_list": "{\"Android 9\":[{\"language\":\"EN\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S8_Kids_V1.01_EN.pdf?v=1611734745\"},{\"language\":\"DE\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S8_Kids_V1.01_DE.pdf?v=1611734746\"},{\"language\":\"FR\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S8_Kids_V1.01_FR.pdf?v=1611734746\"},{\"language\":\"IT\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S8_Kids_V1.01_IT.pdf?v=1611734747\"},{\"language\":\"ES\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S8_Kids_V1.01_ES.pdf?v=1611734745\"},{\"language\":\"JP\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S8_Kids_V1.01_JP.pdf?v=1611734749\"}]}",
+      "status": "1",
+      "ctitle": "Tablet"
+    },
+    {
+      "product_id": "54",
+      "download_id": "4",
+      "image": "",
+      "title": "S10 Kids",
+      "url_list": "{\"\":[{\"language\":\"EN\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S10Kids_V1.03_EN.pdf?v=1611735907\"},{\"language\":\"DE\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S10Kids_V1.03_DE.pdf?v=1611735907\"},{\"language\":\"FR\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S10Kids_V1.03_FR.pdf?v=1611735906\"},{\"language\":\"IT\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S10Kids_V1.03_IT.pdf?v=1611735907\"},{\"language\":\"ES\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S10Kids_V1.03_ES.pdf?v=1611735907\"},{\"language\":\"JP\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S10Kids_V1.03_JP.pdf?v=1611735909\"}]}",
+      "status": "1",
+      "ctitle": "Tablet"
+    },
+    {
+      "product_id": "104",
+      "download_id": "4",
+      "image": "",
+      "title": "P10",
+      "url_list": "{\"Android 11(Go edition)\":[{\"language\":\"ENGLISH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/P10_User_Manual__V1.01_11_EN.pdf?v=1622798963\"},{\"language\":\"FRAN\u00c7AIS\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/P10_User_Manual__V1.01_11_FR.pdf?v=1622798992\"},{\"language\":\"ESPA\u00d1OL\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/P10_User_Manual__V1.01_11_ES.pdf?v=1622799013\"},{\"language\":\"\u65e5\u672c\u8a9e\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/P10_User_Manual__V1.02_11_JP.pdf?v=1622799040\"}]}",
+      "status": "1",
+      "ctitle": "Tablet"
+    },
+    {
+      "product_id": "105",
+      "download_id": "4",
+      "image": "",
+      "title": "P40",
+      "url_list": "{\"V1.01\":[{\"language\":\"ENGLISH\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/P40_User_Manual_V1.01_EN.pdf?v=1622799663\"},{\"language\":\"\u65e5\u672c\u8a9e\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/P40_User_Manual_V1.02_JP.pdf?v=1622800436\"}]}",
+      "status": "1",
+      "ctitle": "Tablet"
+    }
+  ],
+  "Audio": [
+    {
+      "product_id": "55",
+      "download_id": "9",
+      "image": "",
+      "title": "CM7000",
+      "url_list": "{\"\":[{\"language\":\"EN\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/COMMANDER_CM7000_V5.05_EN_eda860a3-1505-4bac-b832-e3ce4b458ab2.pdf?v=1617357513\"},{\"language\":\"DE\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/COMMANDER_CM7000_V5.05_DE_79dfe05c-81bd-4092-b3fb-c23a3da215dc.pdf?v=1617357590\"},{\"language\":\"FR\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/COMMANDER_CM7000_V5.05_FR_f41bb1d0-9476-4e29-8679-340f8414748e.pdf?v=1617357653\"},{\"language\":\"ES\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/COMMANDER_CM7000_V5.05_ES_149e66de-3e72-4596-bbe4-090ed9d9b8e4.pdf?v=1617357697\"},{\"language\":\"IT\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/COMMANDER_CM7000_V5.05_IT_399d0ef2-3f4a-4b6c-a158-d416ea3946ba.pdf?v=1617357754\"},{\"language\":\"JP\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/COMMANDER_CM7000_V5.05_JP_271e9c9e-4ff6-41be-8ec9-5b19ac1cce90.pdf?v=1617357799\"},{\"language\":\"KR\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/COMMANDER_CM7000_V1.01_KR_c5b82052-99c4-4b11-922d-9f2dcb2fac3f.pdf?v=1617357848\"}]}",
+      "status": "1",
+      "ctitle": "Audio"
+    },
+    {
+      "product_id": "56",
+      "download_id": "9",
+      "image": "",
+      "title": "C751",
+      "url_list": "{\"\":[{\"language\":\"EN\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/C751_V2.06_EN.pdf?v=1617357954\"},{\"language\":\"DE\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/C751_V1.02_DE_688fde52-e00f-4cd7-b0ed-d20d7f2a397e.pdf?v=1617358004\"},{\"language\":\"FR\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/C751_V1.02_FR_7bd6ac03-5784-48a4-9d2e-7404a1ec306f.pdf?v=1617358094\"}]}",
+      "status": "1",
+      "ctitle": "Audio"
+    },
+    {
+      "product_id": "57",
+      "download_id": "9",
+      "image": "",
+      "title": "C750",
+      "url_list": "{\"\":[{\"language\":\"EN\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/C750_V2.05_EN.pdf?v=1617358209\"},{\"language\":\"JP\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/C750_V2.05_JP.pdf?v=1617358262\"}]}",
+      "status": "1",
+      "ctitle": "Audio"
+    },
+    {
+      "product_id": "58",
+      "download_id": "9",
+      "image": "",
+      "title": "C740",
+      "url_list": "{\"\":[{\"language\":\"JP\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/C740_V1.05_JP.pdf?v=1617358522\"}]}",
+      "status": "1",
+      "ctitle": "Audio"
+    },
+    {
+      "product_id": "59",
+      "download_id": "9",
+      "image": "",
+      "title": "Captain 100",
+      "url_list": "{\"\":[{\"language\":\"EN\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Captain_100_V2.01_EN.pdf?v=1617358719\"},{\"language\":\"DE\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Captain_100_V1.01_DE.pdf?v=1617358803\"},{\"language\":\"FR\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Captain_100_V1.01_FR.pdf?v=1617358889\"},{\"language\":\"ES\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Captain_100_V1.01_ES.pdf?v=1617358972\"},{\"language\":\"IT\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Captain_100_V1.01_IT.pdf?v=1617359058\"},{\"language\":\"JP\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Captain_100_V2.01_JP.pdf?v=1617359171\"}]}",
+      "status": "1",
+      "ctitle": "Audio"
+    },
+    {
+      "product_id": "60",
+      "download_id": "9",
+      "image": "",
+      "title": "CM6000",
+      "url_list": "{\"\":[{\"language\":\"EN\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/COMMANDER_CM6000_V1.03-EN_57098f51-e0ac-4e68-bdf2-88da2a622d50.pdf?v=1617359513\"},{\"language\":\"DE\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/COMMANDER_CM6000_V1.03-DE_a4365e9b-dfc4-42ec-8e06-e7d68d68396c.pdf?v=1617359569\"},{\"language\":\"FR\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/COMMANDER_CM6000_V1.03-FR_595d83b6-3b14-450b-ae9d-6d8ff8856f89.pdf?v=1617359637\"},{\"language\":\"ES\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/COMMANDER_CM6000_V1.03-ES_358617f1-5478-4679-b713-768d712f443c.pdf?v=1617359714\"},{\"language\":\"IT\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/COMMANDER_CM6000_V1.03-IT_cae65374-78e5-4922-8811-39e9a00e103d.pdf?v=1617359753\"},{\"language\":\"JP\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/COMMANDER_CM6000_V1.03-JP_7f7ee3fd-7ff3-4644-a7b8-f22ffcd9c2ad.pdf?v=1617359839\"}]}",
+      "status": "1",
+      "ctitle": "Audio"
+    },
+    {
+      "product_id": "61",
+      "download_id": "9",
+      "image": "",
+      "title": "CM6600",
+      "url_list": "{\"\":[{\"language\":\"EN\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/CM6600_V1.03_EN.pdf?v=1617359919\"}]}",
+      "status": "1",
+      "ctitle": "Audio"
+    },
+    {
+      "product_id": "62",
+      "download_id": "9",
+      "image": "",
+      "title": "G10",
+      "url_list": "{\"\":[{\"language\":\"JP\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/G10_V2.04_JP.pdf?v=1617360083\"}]}",
+      "status": "1",
+      "ctitle": "Audio"
+    },
+    {
+      "product_id": "63",
+      "download_id": "9",
+      "image": "",
+      "title": "X200",
+      "url_list": "{\"\":[{\"language\":\"EN\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/X200_V5.05_EN_215034b4-59c6-4831-a091-a6446e135f55.pdf?v=1617674970\"},{\"language\":\"JP\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/X200_V1.02_JP_975a5b6b-c80f-4d3a-8848-ad4236008b19.pdf?v=1617674997\"},{\"language\":\"KR\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/X200_V1.01_KR_137fb17d-713c-4ccb-b588-9f82af565c1b.pdf?v=1617675019\"}]}",
+      "status": "1",
+      "ctitle": "Audio"
+    },
+    {
+      "product_id": "64",
+      "download_id": "9",
+      "image": "",
+      "title": "X180",
+      "url_list": "{\"\":[{\"language\":\"EN\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/X180_V2.03_EN_3b765681-962c-4f10-bf1b-cad8168bbe79.pdf?v=1617675361\"},{\"language\":\"JP\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/X180_V2.03_JP.pdf?v=1617675404\"},{\"language\":\"KR\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/X180_V1.01_KR_c3dc10f2-1484-4fa5-aede-d42b641b6ca2.pdf?v=1617675458\"}]}",
+      "status": "1",
+      "ctitle": "Audio"
+    },
+    {
+      "product_id": "65",
+      "download_id": "9",
+      "image": "",
+      "title": "X400",
+      "url_list": "{\"\":[{\"language\":\"EN\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/X400_V1.03_EN_09491972-3e77-4611-a1c1-4b80bdf84fd6.pdf?v=1617675577\"},{\"language\":\"JP\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/X400_V1.03_JP_d06e6bad-5f11-49d1-86e2-a38999bdf7b2.pdf?v=1617675835\"}]}",
+      "status": "1",
+      "ctitle": "Audio"
+    },
+    {
+      "product_id": "66",
+      "download_id": "9",
+      "image": "",
+      "title": "N10",
+      "url_list": "{\"\":[{\"language\":\"EN\",\"url\":\"https://cdn.shopify.com/s/files/1/0268/7015/3313/files/Alpha_N10_V1.05_EN_202001112_7f1d1610-8d8e-42d5-bfc5-55e42a4bbf08.pdf?v=1631092580\"},{\"language\":\"JP\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Alpha_N10_V1.05_JP.pdf?v=1617676080\"}]}",
+      "status": "1",
+      "ctitle": "Audio"
+    },
+    {
+      "product_id": "67",
+      "download_id": "9",
+      "image": "",
+      "title": "S600",
+      "url_list": "{\"\":[{\"language\":\"EN\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S600_V1.02_EN.pdf?v=1617676323\"}]}",
+      "status": "1",
+      "ctitle": "Audio"
+    },
+    {
+      "product_id": "68",
+      "download_id": "9",
+      "image": "",
+      "title": "S400",
+      "url_list": "{\"\":[{\"language\":\"EN\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S400_V1.01_EN.pdf?v=1617676476\"}]}",
+      "status": "1",
+      "ctitle": "Audio"
+    },
+    {
+      "product_id": "69",
+      "download_id": "9",
+      "image": "",
+      "title": "X100",
+      "url_list": "{\"\":[{\"language\":\"JP\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/X100_V3.03_JP.pdf?v=1617676639\"}]}",
+      "status": "1",
+      "ctitle": "Audio"
+    },
+    {
+      "product_id": "70",
+      "download_id": "9",
+      "image": "",
+      "title": "X150",
+      "url_list": "{\"\":[{\"language\":\"EN\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/X150_V1.02_EN.pdf?v=1617676729\"}]}",
+      "status": "1",
+      "ctitle": "Audio"
+    },
+    {
+      "product_id": "71",
+      "download_id": "9",
+      "image": "",
+      "title": "BFF1",
+      "url_list": "{\"\":[{\"language\":\"EN\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/BFF1_V4.06_EN.pdf?v=1617681623\"},{\"language\":\"DE\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/BFF1_V4.06_DE.pdf?v=1617681676\"},{\"language\":\"FR\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/BFF1_V4.06_FR.pdf?v=1617681857\"},{\"language\":\"ES\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/BFF1_V4.06_ES.pdf?v=1617681914\"},{\"language\":\"IT\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/BFF1_V4.06_IT.pdf?v=1617681984\"},{\"language\":\"JP\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/BFF1_V4.06_JP.pdf?v=1617682030\"}]}",
+      "status": "1",
+      "ctitle": "Audio"
+    }
+  ],
+  "Digital Photo Frame": [
+    {
+      "product_id": "72",
+      "download_id": "10",
+      "image": "",
+      "title": "F10/F10 FHD",
+      "url_list": "{\"\":[{\"language\":\"EN\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/F10_F10_FHD_Black_Frame__V1.07_EN.pdf?v=1621581395\"},{\"language\":\"DE\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/F10_F10_FHD_V1.01_DE.pdf?v=1617852787\"},{\"language\":\"FR\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/F10_F10_FHD_V1.01_FR.pdf?v=1617852828\"},{\"language\":\"ES\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/F10_F10_FHD_V1.01_ES.pdf?v=1617852867\"},{\"language\":\"IT\",\"url\":\"https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/F10_F10_FHD_V1.01_IT.pdf?v=1617852905\"}]}",
+      "status": "1",
+      "ctitle": "Digital Photo Frame"
+    }
+  ],
+  "Accessories": [
+    {
+      "product_id": "120",
+      "download_id": "11",
+      "image": "",
+      "title": "PS120C",
+      "url_list": "{\"V1.02\":[{\"language\":\"ENGLISH\",\"url\":\"https://cdn.shopify.com/s/files/1/0268/7015/3313/files/PS120C____V1.02.pdf?v=1705487594\"},{\"language\":\"DEUTSCH\",\"url\":\"https://cdn.shopify.com/s/files/1/0268/7015/3313/files/PS120C____V1.02_d599ecde-6c6c-45d0-906d-e1e11774cb97.pdf?v=1705487616\"},{\"language\":\"FRAN\u00c7AIS\",\"url\":\"https://cdn.shopify.com/s/files/1/0268/7015/3313/files/PS120C____V1.02_83831a61-f435-42a4-a649-ff6917703797.pdf?v=1705487616\"},{\"language\":\"ITALIANO\",\"url\":\"https://cdn.shopify.com/s/files/1/0268/7015/3313/files/PS120C____V1.02_66f807b2-0c57-4cd5-935b-21edf58f3fc8.pdf?v=1705487616\"},{\"language\":\"\u65e5\u672c\u8a9e\",\"url\":\"https://cdn.shopify.com/s/files/1/0268/7015/3313/files/PS120C____V1.02_5946c9a4-4110-410d-b161-7435b719381d.pdf?v=1705487616\"}]}",
+      "status": "1",
+      "ctitle": "Accessories"
+    }
+  ]
+}

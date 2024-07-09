@@ -1,0 +1,66 @@
+Example product: (1957)
+
+model = Burger 101
+model_2 = 
+brand = Ivankyo 
+product = Projector
+product_parent = 
+product_lang = en
+file_urls = https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Burger_101_User_Manual_V6.02_EN.pdf?v=1622009798
+eans = 
+files =
+type = User Manual
+url = https://ivankyo.com/pages/download#Projector 
+thumb = 
+source = ivankyo.com
+------------------------------------------------------ (1934)
+model = Dolphin M600
+model_2 = 
+brand = maytronics.com 
+product = Robotic Pool Cleaners
+product_parent = 
+product_lang = en
+file_urls = https://brand.maytronics.com/m/25734c72284ac24c/original/User-manual-8180002-EN.pdf
+eans = 
+files=
+type = Full Manual
+url = https://manuals.maytronics.com/intro/?pn=99996610-AR&cust=1882    
+thumb = https://www.maytronics.com/dw/image/v2/BGGP_PRD/on/demandware.static/-/Library-Sites-MaytronicsSharedLibrary/default/dw065e8722/New_WOW_Pages/Dolphin M600jpg.jpg
+source = maytronics.com
+
+--------------------------------------------------------------()
+model = Adria
+model_2 = 
+brand =  Audizio
+product = DAB+ Radios    
+product_parent = 
+product_lang = en
+file_urls = https://www.tronios.com/media/custom/upload/102.238_102.239 Adria Internet Radio_manual_V1.3.pdf
+eans = 
+files =
+type = Manual
+url = https://www.audizio.com/product/adria-wifi-internet-radio-with-dab-and-bt-alu/ 
+thumb = https://www.audizio.com/wp-content/uploads/2023/04/102239_side1.jpg
+source = audizio.com
+----------------------------(1988)
+Key    Value 
+
+url    https://rme-audio.de/downloads.html
+
+brand  RME
+
+model  Fireface UFX II
+
+product_lang de
+
+file_urls  https://www.rme-audio.de/downloads/fface_ufx2_e.pdf
+
+product  Firewire & USB
+
+type  Manual
+
+source rme-audio.de
+------------------------------(2002)
+
+ https://www.r-go-tools.nl/sitemap_index.xml
+ R-go-tools

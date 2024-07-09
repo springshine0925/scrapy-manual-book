@@ -1,0 +1,981 @@
+C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\scrapy\commands\__init__.py:171: ScrapyDeprecationWarning: The -t/--output-format command line option is deprecated in favor of specifying the output format within the output URI using the -o/--output or the -O/--overwrite-output option (i.e. -o/-O <URI>:<FORMAT>). See the documentation of the -o or -O option or the following examples for more information. Examples working in the tutorial: scrapy crawl quotes -o quotes.csv:csv   or   scrapy crawl quotes -O quotes.json:json
+  feeds = feed_process_params_from_cli(
+2024-06-28 16:30:36 [scrapy.utils.log] INFO: Scrapy 2.11.2 started (bot: scrapy_spider)
+2024-06-28 16:30:36 [scrapy.utils.log] INFO: Versions: lxml 5.2.2.0, libxml2 2.11.7, cssselect 1.2.0, parsel 1.9.1, w3lib 2.2.1, Twisted 24.3.0, Python 3.11.2 (tags/v3.11.2:878ead1, Feb  7 2023, 16:38:35) [MSC v.1934 64 bit (AMD64)], pyOpenSSL 24.1.0 (OpenSSL 3.2.2 4 Jun 2024), cryptography 42.0.8, Platform Windows-10-10.0.18363-SP0
+2024-06-28 16:30:36 [scrapy.addons] INFO: Enabled addons:
+[]
+2024-06-28 16:30:36 [asyncio] DEBUG: Using selector: SelectSelector
+2024-06-28 16:30:36 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.asyncioreactor.AsyncioSelectorReactor
+2024-06-28 16:30:36 [scrapy.utils.log] DEBUG: Using asyncio event loop: asyncio.windows_events._WindowsSelectorEventLoop
+2024-06-28 16:30:36 [scrapy.extensions.telnet] INFO: Telnet Password: 9ce905b2a97584f6
+2024-06-28 16:30:36 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2024-06-28 16:30:36 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'scrapy_spider',
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'NEWSPIDER_MODULE': 'scrapy_spider.spiders',
+ 'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['scrapy_spider.spiders'],
+ 'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor'}
+2024-06-28 16:30:37 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2024-06-28 16:30:37 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2024-06-28 16:30:37 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2024-06-28 16:30:37 [scrapy.core.engine] INFO: Spider opened
+2024-06-28 16:30:37 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-06-28 16:30:37 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2024-06-28 16:30:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://ivankyo.com/robots.txt> (referer: None)
+2024-06-28 16:30:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://ivankyo.com/pages/download#all> (referer: None)
+2024-06-28 16:30:44 [scrapy.core.engine] DEBUG: Crawled (404) <GET https://admin.ivankyo.com/robots.txt> (referer: None)
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 13 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 18 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 21 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 26 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 42 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 49 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 50 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 52 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 53 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 56 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 57 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 58 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 67 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 95 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 98 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 99 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 102 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 104 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 107 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 108 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 111 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 113 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 116 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 117 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 118 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 119 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 120 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 123 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 125 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 126 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 127 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 128 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 129 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 132 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 133 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 134 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 135 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 136 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 139 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 140 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 141 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 142 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 143 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 146 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 147 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 148 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 149 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 150 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 153 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 154 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 155 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 158 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 168 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 169 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 176 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 187 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 188 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 189 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 190 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 196 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 197 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 198 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 204 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 205 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 206 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 207 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 213 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 214 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 215 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 216 without any user agent to enforce it on.
+2024-06-28 16:30:44 [protego] DEBUG: Rule at line 221 without any user agent to enforce it on.
+2024-06-28 16:30:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads> (referer: https://ivankyo.com/pages/download)
+2024-06-28 16:30:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Burger_101_User_Manual_V6.02_EN.pdf?v=1622009798',
+ 'model': 'Burger 101',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Cinemango_100P_User_Manual_V1.01_EN.pdf?v=1622011267',
+ 'model': 'Cinemango 100P',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Cinemango100W_User_Manual_V1.02_EN.pdf?v=1622011393',
+ 'model': 'Cinemango 100W',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Cinemango_100_User_Manual_V2.02_EN.pdf?v=1622011444',
+ 'model': 'Cinemango 100',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/GO200_User_Manual_V3.03__EN.pdf?v=1622011616',
+ 'model': 'GO 200',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/GO200_User_Manual_V1.03_JP.pdf?v=1622011641',
+ 'model': 'GO 200',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/GO300_User_Manual_V5.02__EN.pdf?v=1622011846',
+ 'model': 'GO 300',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/GO300_User_Manual_V1.01_JP.pdf?v=1622011869',
+ 'model': 'GO 300',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_410_480P_User_Manual_V3.01_EN.pdf?v=1622012865',
+ 'model': 'Leisure 410',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_410_720P_User_Manual_V4.01_EN.pdf?v=1622013051',
+ 'model': 'Leisure 410',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_410W_User_Manual_V1.05_EN.pdf?v=1622013266',
+ 'model': 'Leisure 410W',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_430_User_Manual_V5.01_EN.pdf?v=1622013383',
+ 'model': 'Leisure 430',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_430_720P_User_Manual__V1.02_EN.pdf?v=1622013877',
+ 'model': 'Leisure 430',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_D30T_Plus_Bundle_Edition_User_Manual_V1.01_EN.pdf?v=1622693948',
+ 'model': 'Leisure D30T Plus Bundle Edition',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_430W_User_Manual_V1.01_EN.pdf?v=1622014140',
+ 'model': 'Leisure 430W',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_430W_User_Manual_V1.02_KR.pdf?v=1622014189',
+ 'model': 'Leisure 430W',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_460_User_Manual_V6.02_EN.pdf?v=1622014305',
+ 'model': 'Leisure 460',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_470_User_Manual_V6.04_EN.pdf?v=1622014474',
+ 'model': 'Leisure 470',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_470_User_Manual_V1.02_KR.pdf?v=1622014526',
+ 'model': 'Leisure 470',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_470C_User_Manual_V6.01_EN.pdf?v=1622014669',
+ 'model': 'Leisure 470C',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_510_User_Manual_V4.02_EN.pdf?v=1622014778',
+ 'model': 'Leisure 510',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_510PW_User_Manual_V2.02_EN.pdf?v=1622015109',
+ 'model': 'Leisure 510PW',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_510W_User_Manual_V1.01_EN.pdf?v=1622015201',
+ 'model': 'Leisure 510W',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_520W_User_Manual_V1.03_EN.pdf?v=1622015255',
+ 'model': 'Leisure 520W',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_550W_User_Manual_V1.02_EN.pdf?v=1622015464',
+ 'model': 'Leisure 550W',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_530W_E30WT_E30WQ_User_Manual_V2.01_EN.pdf?v=1622015598',
+ 'model': 'Leisure 530W,E30WT,E30WQ',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/mini_Leisure_470_Leisure_D70T_Leisure_D70Q_V1.02_EN.pdf?v=1622015868',
+ 'model': 'mini_Leisure 470,D70T,D70Q',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_3W_pro_User_Manual_V1.02_EN.pdf?v=1622694159',
+ 'model': 'Leisure 3W Pro',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_480W_User_Manual_V1.02_EN.pdf?v=1622694218',
+ 'model': 'Leisure 480W',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_495W_User_Manual_V1.01_EN.pdf?v=1622694453',
+ 'model': 'Leisure 495W',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_D30T_User_Manual_V1.01_EN.pdf?v=1622694500',
+ 'model': 'Leisure D30T',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Miracle_110_User_Manual_V3.02_EN.pdf?v=1622694530',
+ 'model': 'Miracle 110',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Miracle_120_User_Manual_V1.02_EN.pdf?v=1622694574',
+ 'model': 'Miracle 120',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_540_User_Manual_V1.01_JP.pdf?v=1622694625',
+ 'model': 'Leisure 540W',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_530W_E30WT_E30WQ_User_Manual_V3.03_EN.pdf?v=1622772375',
+ 'model': 'Leisure 530W,E30WT,E30WQ',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_E30T_Leisure_E30TB_LeisureE30WT_User_Manual_V1.01_EN.pdf?v=1622776882',
+ 'model': 'Leisure E30T,E30TB,E30WT',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_3_720P_User_Manual_V2.05_EN.pdf?v=1622776981',
+ 'model': 'Leisure 3 _720P',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_490W_User_Manual__V1.03_EN.pdf?v=1623392339',
+ 'model': 'Leisure 490W',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_420_User_Manual_V4.01_EN.pdf?v=1623392397',
+ 'model': 'Leisure 420',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Leisure_490BW_V1.01_EN.pdf?v=1623392552',
+ 'model': 'Leisure 490BW',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/LEISURE_C3MQ_User_Manual_V1.01_EN.pdf?v=1623392944',
+ 'model': 'Leisure C3MQ',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Performance_V600_User_Manual_V5.03_EN.pdf?v=1623398778',
+ 'model': 'Performance V600',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Performance_V620_User_Manual_V4.02_EN.pdf?v=1623399273',
+ 'model': 'Performance V620',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Performance_V630_User_Manual_V3.03_EN.pdf?v=1623399525',
+ 'model': 'Performance V630',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopify.com/s/files/1/0268/7015/3313/files/Leisure_3_Pro__V1.01.pdf?v=1699407385',
+ 'model': 'Leisure 3 pro',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopify.com/s/files/1/0268/7015/3313/files/Performance_V700W___V2.01.pdf?v=1699407385',
+ 'model': 'Performance V700W',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopify.com/s/files/1/0268/7015/3313/files/LEISURE_3__V6.07.pdf?v=1699580775',
+ 'model': 'Leisure 3',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopify.com/s/files/1/0268/7015/3313/files/Vista_T4__V1.03_1_053f8623-3024-4897-9aad-a2ac7c046937.pdf?v=1700187479',
+ 'model': 'Vista T4',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopify.com/s/files/1/0268/7015/3313/files/Leisure_D30T__V1.01.pdf?v=1700553353',
+ 'model': 'Leisure D30T',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopify.com/s/files/1/0268/7015/3313/files/PERFORMANCE_V630W_mini___4.5__V1.01_073882ea-8021-44ad-b6d5-a16c753deb0b.pdf?v=1700814967',
+ 'model': 'Performance V630W mini',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopify.com/s/files/1/0268/7015/3313/files/Performance_X3__V1.03.pdf?v=1706003902',
+ 'model': 'Performance X3',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopify.com/s/files/1/0268/7015/3313/files/Leisure_330W___V1.05.pdf?v=1706003901',
+ 'model': 'Leisure 330W',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopify.com/s/files/1/0268/7015/3313/files/Leisure_470_Pro__V2.02.pdf?v=1706003899',
+ 'model': 'Leisure 470 Pro',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopify.com/s/files/1/0268/7015/3313/files/LEISURE_3W_480P_WiFi__V2.05_1.pdf?v=1708911503',
+ 'model': 'Leisure 3W',
+ 'product': 'Projector',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Projector'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/MatrixPad_S7_S8_User_Manual_V3.01_EN.pdf?v=1610700791',
+ 'model': 'S7,S8',
+ 'product': 'Tablet',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Tablet'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S7_S8_User_Manual_EN_V1.02_10.pdf?v=1609931097',
+ 'model': 'S7,S8',
+ 'product': 'Tablet',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Tablet'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S10_detailed_user_manual_EN_V1.02.pdf?v=1611652771',
+ 'model': 'S10',
+ 'product': 'Tablet',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Tablet'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S10_User_Manual_EN_V1.01_10.pdf?v=1609931098',
+ 'model': 'S10',
+ 'product': 'Tablet',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Tablet'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S20_User_Manual_V2.01_EN.pdf?v=1611731463',
+ 'model': 'S20',
+ 'product': 'Tablet',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Tablet'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S20_User_Manual_EN_V1.01_10.pdf?v=1609931016',
+ 'model': 'S20',
+ 'product': 'Tablet',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Tablet'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S21_V1.02_EN.pdf?v=1609933124',
+ 'model': 'S21',
+ 'product': 'Tablet',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Tablet'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S30_User_Manual_V2.01_EN.pdf?v=1611732688',
+ 'model': 'S30',
+ 'product': 'Tablet',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Tablet'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S30_User_Manual_EN_V1.01_10.pdf?v=1609931024',
+ 'model': 'S30',
+ 'product': 'Tablet',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Tablet'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopify.com/s/files/1/0268/7015/3313/files/P31_User_Manual_EN_V1.03_10.pdf?v=1628058673',
+ 'model': 'P31',
+ 'product': 'Tablet',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Tablet'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/P31-E_V1.02_EN.pdf?v=1609927367',
+ 'model': 'P31-E',
+ 'product': 'Tablet',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Tablet'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Z1_Upgrade_V1.03_EN.pdf?v=1609918019',
+ 'model': 'Z1 Upgrade',
+ 'product': 'Tablet',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Tablet'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/MatrixPad_Z10_User_Guide_V2.02_EN.pdf?v=1609915024',
+ 'model': 'Z10',
+ 'product': 'Tablet',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Tablet'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Z1_kids_Upgrade_V1.02_EN.pdf?v=1609919470',
+ 'model': 'Z1 Kids Upgrade',
+ 'product': 'Tablet',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Tablet'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S7_Kids_V1.04_EN.pdf?v=1611734344',
+ 'model': 'S7 Kids',
+ 'product': 'Tablet',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Tablet'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S8_Kids_V1.01_EN.pdf?v=1611734745',
+ 'model': 'S8 Kids',
+ 'product': 'Tablet',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Tablet'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S10Kids_V1.03_EN.pdf?v=1611735907',
+ 'model': 'S10 Kids',
+ 'product': 'Tablet',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Tablet'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/P10_User_Manual__V1.01_11_EN.pdf?v=1622798963',
+ 'model': 'P10',
+ 'product': 'Tablet',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Tablet'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/P40_User_Manual_V1.01_EN.pdf?v=1622799663',
+ 'model': 'P40',
+ 'product': 'Tablet',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Tablet'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/COMMANDER_CM7000_V5.05_EN_eda860a3-1505-4bac-b832-e3ce4b458ab2.pdf?v=1617357513',
+ 'model': 'CM7000',
+ 'product': 'Audio',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Audio'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/C751_V2.06_EN.pdf?v=1617357954',
+ 'model': 'C751',
+ 'product': 'Audio',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Audio'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/C750_V2.05_EN.pdf?v=1617358209',
+ 'model': 'C750',
+ 'product': 'Audio',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Audio'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/C740_V1.05_JP.pdf?v=1617358522',
+ 'model': 'C740',
+ 'product': 'Audio',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Audio'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/Captain_100_V2.01_EN.pdf?v=1617358719',
+ 'model': 'Captain 100',
+ 'product': 'Audio',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Audio'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/COMMANDER_CM6000_V1.03-EN_57098f51-e0ac-4e68-bdf2-88da2a622d50.pdf?v=1617359513',
+ 'model': 'CM6000',
+ 'product': 'Audio',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Audio'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/CM6600_V1.03_EN.pdf?v=1617359919',
+ 'model': 'CM6600',
+ 'product': 'Audio',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Audio'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/G10_V2.04_JP.pdf?v=1617360083',
+ 'model': 'G10',
+ 'product': 'Audio',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Audio'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/X200_V5.05_EN_215034b4-59c6-4831-a091-a6446e135f55.pdf?v=1617674970',
+ 'model': 'X200',
+ 'product': 'Audio',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Audio'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/X180_V2.03_EN_3b765681-962c-4f10-bf1b-cad8168bbe79.pdf?v=1617675361',
+ 'model': 'X180',
+ 'product': 'Audio',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Audio'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/X400_V1.03_EN_09491972-3e77-4611-a1c1-4b80bdf84fd6.pdf?v=1617675577',
+ 'model': 'X400',
+ 'product': 'Audio',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Audio'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopify.com/s/files/1/0268/7015/3313/files/Alpha_N10_V1.05_EN_202001112_7f1d1610-8d8e-42d5-bfc5-55e42a4bbf08.pdf?v=1631092580',
+ 'model': 'N10',
+ 'product': 'Audio',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Audio'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S600_V1.02_EN.pdf?v=1617676323',
+ 'model': 'S600',
+ 'product': 'Audio',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Audio'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/S400_V1.01_EN.pdf?v=1617676476',
+ 'model': 'S400',
+ 'product': 'Audio',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Audio'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/X100_V3.03_JP.pdf?v=1617676639',
+ 'model': 'X100',
+ 'product': 'Audio',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Audio'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/X150_V1.02_EN.pdf?v=1617676729',
+ 'model': 'X150',
+ 'product': 'Audio',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Audio'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/BFF1_V4.06_EN.pdf?v=1617681623',
+ 'model': 'BFF1',
+ 'product': 'Audio',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Audio'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopifycdn.net/s/files/1/0268/7015/3313/files/F10_F10_FHD_Black_Frame__V1.07_EN.pdf?v=1621581395',
+ 'model': 'F10/F10 FHD',
+ 'product': 'Digital Photo Frame',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Digital Photo Frame'}
+2024-06-28 16:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://admin.ivankyo.com/index.php?route=api/product_downloads/getProductdownloads>
+{'brand': 'VANKYO',
+ 'file_urls': 'https://cdn.shopify.com/s/files/1/0268/7015/3313/files/PS120C____V1.02.pdf?v=1705487594',
+ 'model': 'PS120C',
+ 'product': 'Accessories',
+ 'product_lang': 'en',
+ 'source': 'ivankyo.com',
+ 'type': 'User Manual',
+ 'url': 'https://ivankyo.com/pages/download#Accessories'}
+2024-06-28 16:30:45 [scrapy.core.engine] INFO: Closing spider (finished)
+2024-06-28 16:30:45 [scrapy.extensions.feedexport] INFO: Stored csv feed (92 items) in: ivankyo.csv
+2024-06-28 16:30:45 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 2871,
+ 'downloader/request_count': 4,
+ 'downloader/request_method_count/GET': 4,
+ 'downloader/response_bytes': 70631,
+ 'downloader/response_count': 4,
+ 'downloader/response_status_count/200': 3,
+ 'downloader/response_status_count/404': 1,
+ 'elapsed_time_seconds': 7.98548,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2024, 6, 28, 8, 30, 45, 156383, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 329760,
+ 'httpcompression/response_count': 4,
+ 'item_scraped_count': 92,
+ 'log_count/DEBUG': 170,
+ 'log_count/INFO': 11,
+ 'request_depth_max': 1,
+ 'response_received_count': 4,
+ 'robotstxt/request_count': 2,
+ 'robotstxt/response_count': 2,
+ 'robotstxt/response_status_count/200': 1,
+ 'robotstxt/response_status_count/404': 1,
+ 'scheduler/dequeued': 2,
+ 'scheduler/dequeued/memory': 2,
+ 'scheduler/enqueued': 2,
+ 'scheduler/enqueued/memory': 2,
+ 'start_time': datetime.datetime(2024, 6, 28, 8, 30, 37, 170903, tzinfo=datetime.timezone.utc)}
+2024-06-28 16:30:45 [scrapy.core.engine] INFO: Spider closed (finished)
