@@ -10,13 +10,18 @@ class BoompodsSpider(SitemapSpider):
         for doc in response.css('a[href$=".pdf"]'):
             product = response.css('.posted_in a::text').get()
             model = response.css('h1.product_title.entry-title::text').re_first(r'(?i)(?:R-Go)?\s*(.+)')
+            words = model.split()
+            if len(words) >= 2:
+                re_model = " ".join(words[:2])
+            else:
+                re_model = model
             doc_type = "Manual"
             language = response.css('::attr("lang")').get()[:2]
             gtin = response.css('p.variation-gtin::text').get()
             eans = re.search(r'\d+', gtin).group()
             
             yield Manual(
-                model=model,
+                model=re_model,
                 brand='R-Go Tools',
                 product=product,
                 product_lang= 'en',

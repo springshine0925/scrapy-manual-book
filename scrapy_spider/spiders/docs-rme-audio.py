@@ -1,10 +1,10 @@
 import scrapy
 from scrapy_spider.items import Manual
-
+import time
 class RMEAudioSpider(scrapy.Spider):
     name = "rme-audio.de"
     allowed_domains = ["rme-audio.de", "docs.rme-audio.com"]
-    start_urls = ["https://rme-audio.de/downloads.html"]
+    start_urls = ["https://rme-audio.de/downloads.html","https://docs.rme-audio.com/shared"]
     user_agent = 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148'
     handle_httpstatus_list = [301, 302]
 
@@ -48,46 +48,46 @@ class RMEAudioSpider(scrapy.Spider):
                 manual['url'] = response.url
                 manual['source'] = self.name
 
-                if pdf_url and pdf_url.endswith(".pdf"):
+                if pdf_url and not pdf_url.endswith(".pdf"):
+                    print(pdf_url)
+                    if pdf_url=="https://docs.rme-audio.com/":
+                     yield scrapy.Request(url=f'{pdf_url}shared', meta={'manual': manual}, callback=self.parse_url)
+                elif pdf_url and pdf_url.endswith(".pdf"):
                     manual['file_urls'] = [response.urljoin(pdf_url)]
                     yield manual
-                elif pdf_url:
-                    yield{
-                        'pdf_url': pdf_url,
-                        'product_name': product_name
-                    }
-                    yield scrapy.Request(url=f'{pdf_url}/shared', meta={'manual': manual}, callback=self.parse_url)
+                   
 
     def parse_url(self, response):
-        yield{
-            'get_url': response.url
-        }
-        product_manual = response.meta['manual']
-        product_model = product_manual['model']
+        print(response.url)
+        # yield{
+        #     'get_url': response.url
+        # }
+    #     product_manual = response.meta['manual']
+    #     product_model = product_manual['model']
 
-        if product_model == "M-32 Pro AD" or product_model == "M-32 Pro DA":
-            items = product_model.split()
-            re_model_names = [items[0], items[2], items[1]]
-            product_model = ''.join(re_model_names)
+    #     if product_model == "M-32 Pro AD" or product_model == "M-32 Pro DA":
+    #         items = product_model.split()
+    #         re_model_names = [items[0], items[2], items[1]]
+    #         product_model = ''.join(re_model_names)
 
-        products = response.xpath('//table/tbody/tr')
+    #     products = response.xpath('//table/tbody/tr')
         
-        for product in products:
-            product_name = product.xpath('td[1]/p/text()').get()
-            new_product_name = product_name.replace("RME", "").strip()
-            relative_pdf_url = product.xpath('td[3]/p/a/@href').get()
-            if relative_pdf_url:
-                pdf_url_correct = response.urljoin(relative_pdf_url)
-                if self.compare(new_product_name, product_model) and pdf_url_correct.endswith(".pdf"):
-                    product_manual['file_urls'] = [pdf_url_correct]
-                    product_manual['url'] = response.url
-                    yield product_manual
-                    break
-            else:
-                yield {
-                    "product": new_product_name,
-                    'model': product_model
-                }
+    #     for product in products:
+    #         product_name = product.xpath('td[1]/p/text()').get()
+    #         new_product_name = product_name.replace("RME", "").strip()
+    #         relative_pdf_url = product.xpath('td[3]/p/a/@href').get()
+    #         if relative_pdf_url:
+    #             pdf_url_correct = response.urljoin(relative_pdf_url)
+    #             if self.compare(new_product_name, product_model) and pdf_url_correct.endswith(".pdf"):
+    #                 product_manual['file_urls'] = [pdf_url_correct]
+    #                 product_manual['url'] = response.url
+    #                 yield product_manual
+    #                 break
+    #         else:
+    #             yield {
+    #                 "product": new_product_name,
+    #                 'model': product_model
+    #             }
 
-    def compare(self, product, model):
-        return product.lower() == model.lower()
+    # def compare(self, product, model):
+    #     return product.lower() == model.lower()

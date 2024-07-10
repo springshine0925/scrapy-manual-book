@@ -30,16 +30,21 @@ class ExampleSpider(scrapy.Spider):
         product_url = response.css('meta[property="og:url"]::attr(content)').get()
         thumb = response.css('.overlay::attr(href)').get()
         breadcrumb_items = response.css('nav.breadcrumb li.breadcrumb-item a::text').getall()
-        manual = Manual(
-            model=product_model,
-            brand='Maytronics',
-            product=breadcrumb_items[-1],
-            product_lang='en',
-            type='Full Manual',
-            url=product_url,
-            thumbs=thumb,
-            source=self.name
-        )
+        if len(breadcrumb_items) > 3:
+            if breadcrumb_items[-1].strip() == "Best Seller Cleaners":
+                product_name = "Robotic Pool Cleaners"
+            else:
+                product_name = breadcrumb_items[-1].strip()
+            manual = Manual(
+                model=product_model,
+                brand='Maytronics',
+                product= product_name,
+                product_lang='en',
+                type='Full Manual',
+                url=product_url,
+                thumbs=thumb,
+                source=self.name
+            )
         
         pdf_link = response.css('.manual-link::attr(href)').get()
         if pdf_link is not None and pdf_link != '':
@@ -47,8 +52,9 @@ class ExampleSpider(scrapy.Spider):
 
     def get_pdfs(self, response):
         product_manual = response.meta['manual']
-        file_urls = response.css('a[data-button-language="English"].ga-click::attr(href)').get()
+        file_urls = response.css('a.ga-click::attr(href)').getall()
         # product_manual['type'] = response.css('button.btn.bg-black::text').get().strip()
-        if file_urls:
-            product_manual['file_urls'] = file_urls
-            yield product_manual
+        for url in file_urls:
+            if url and url.endswith(".pdf") and url != "/images/pdfs/parts/caddy/CADDY_pro.pdf":
+                product_manual['file_urls'] = url
+                yield product_manual
