@@ -64,3 +64,39 @@ source rme-audio.de
 
  https://www.r-go-tools.nl/sitemap_index.xml
  R-go-tools
+
+ --
+ [
+{"url": "https://www.r-go-tools.nl/ergonomische-accessoires/r-go-split-armrest/"},
+{"url": "https://www.r-go-tools.nl/ergonomische-documenthouder/r-go-read2write-documenthouder/"},
+{"url": "https://www.r-go-tools.nl/ergonomische-accessoires/r-go-dongle-voor-he-muis/"},
+{"url": "https://www.r-go-tools.nl/ergonomische-muis/r-go-he-basic-verticale-muis/"},
+{"url": "https://www.r-go-tools.nl/ergonomisch-toetsenbord/r-go-compact/"},
+{"url": "https://www.r-go-tools.nl/ergonomisch-toetsenbord/r-go-split-break/"},
+{"url": "https://www.r-go-tools.nl/ergonomische-laptopstandaard/r-go-riser-basic-laptopstandaard/"},
+{"url": "https://www.r-go-tools.nl/ergonomische-laptopstandaard/r-go-riser-flexible-laptopstandaard/"},
+{"url": "https://www.r-go-tools.nl/ergonomisch-toetsenbord/r-go-numpad-break/"},
+{"url": "https://www.r-go-tools.nl/ergonomische-accessoires/r-go-extra-arm-module-caparo/"},
+{"url": "https://www.r-go-tools.nl/ergonomische-laptopstandaard/r-go-riser-duo-tablet-en-laptopstandaard/"},
+{"url": "https://www.r-go-tools.nl/ergonomische-accessoires/r-go-extra-arm-module-zepher/"},
+{"url": "https://www.r-go-tools.nl/circulaire-monitorarm/r-go-dubbele-monitorarm-caparo/"},
+{"url": "https://www.r-go-tools.nl/steel-laptopstandaards/r-go-steel-office-laptopstandaard/"},
+{"url": "https://www.r-go-tools.nl/ergonomische-accessoires/r-go-hygienische-toetsenbord-cover/"},
+{"url": "https://www.r-go-tools.nl/ergonomisch-toetsenbord/r-go-compact-break/"},
+{"url": "https://www.r-go-tools.nl/ergonomische-accessoires/r-go-treepod-laptop-en-tabletstandaard/"},
+{"url": "https://www.r-go-tools.nl/ergonomische-muis/r-go-twister-ambidexter-muis/"},
+{"url": "https://www.r-go-tools.nl/ergonomische-laptopstandaard/r-go-riser-document-laptopstandaard/"},
+{"url": "https://www.r-go-tools.nl/steel-laptopstandaards/r-go-steel-travel-laptopstandaard/"},
+{"url": "https://www.r-go-tools.nl/ergonomische-muis/r-go-he-break-muis/"},
+{"url": "https://www.r-go-tools.nl/ergonomische-documenthouder/r-go-flex-read-documenthouder/"},
+{"url": "https://www.r-go-tools.nl/ergonomische-laptopstandaard/r-go-riser-attachable-laptopstandaard/"},
+{"url": "https://www.r-go-tools.nl/ergonomische-accessoires/r-go-ergonomische-armsteun/"},
+{"url": "https://www.r-go-tools.nl/slimme-software/r-go-break-software/"},
+{"url": "https://www.r-go-tools.nl/circulaire-monitorarm/r-go-dubbele-monitorarm-zepher/"},
+{"url": "https://www.r-go-tools.nl/laptop-tassen/r-go-viva-15-6-laptoptas/"},
+{"url": "https://www.r-go-tools.nl/ergonomische-accessoires/r-go-morelia-documenthouder/"},
+{"url": "https://www.r-go-tools.nl/circulaire-monitorarm/r-go-enkele-monitorarm-zepher/"},
+{"url": "https://www.r-go-tools.nl/circulaire-monitorarm/r-go-enkele-monitorarm-caparo/"},
+{"url": "https://www.r-go-tools.nl/ergonomische-accessoires/r-go-morelia-laptophouder/"},
+{"url": "https://www.r-go-tools.nl/circulaire-monitorarm/r-go-smartbar/"}
+]
